@@ -1,3 +1,6 @@
+--no-cache-dir
+--extra-index-url https://pypi.org/simple
+
 streamlit
 ultralytics
 opencv-python-headless
@@ -5,3 +8,7 @@ numpy<2.0.0
 Pillow
 gdown
 tensorflow==2.10.1
+
+# Clean conflict: Uninstall full OpenCV GUI
+!pip uninstall -y opencv-python opencv-contrib-python
+
