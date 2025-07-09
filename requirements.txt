@@ -4,3 +4,4 @@ opencv-python-headless
 numpy
 Pillow
 gdown
+tensorflow==2.10.1
