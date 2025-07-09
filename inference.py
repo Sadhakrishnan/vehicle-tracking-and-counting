@@ -129,4 +129,3 @@ while True:
 
 video_cap.release()
 writer.release()
-cv2.destroyAllWindows()
