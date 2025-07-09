@@ -1,7 +1,7 @@
 streamlit
 ultralytics
 opencv-python-headless
-numpy
+numpy<2.0.0
 Pillow
 gdown
 tensorflow==2.10.1
